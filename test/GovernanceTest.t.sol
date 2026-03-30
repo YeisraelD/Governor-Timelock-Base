@@ -37,6 +37,7 @@ contract GovernanceTest is Test {
         timelock.revokeRole(adminRole, address(this));
         
         token.mint(USER, INITIAL_SUPPLY);
+        token.mint(address(timelock), INITIAL_SUPPLY);
         
         vm.prank(USER);
         token.delegate(USER); // Self-delegate to activate voting power

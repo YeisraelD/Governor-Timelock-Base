@@ -14,8 +14,6 @@ This DAO setup follows the standard OpenZeppelin governance pattern:
 
 ---
 
-## Getting Started
-
 ### Prerequisites
 
 - [Foundry](https://book.getfoundry.sh/getting-started/installation) installed.
@@ -69,7 +67,4 @@ If a proposal passes and meets the quorum, it must be **queued** in the `TimeLoc
 
 This project uses **OpenZeppelin 5.x** contracts, ensuring high security standards. The architecture ensures that the Governor contract is the only entity that can propose actions to the Timelock, while the Timelock is the only entity that can execute those actions.
 
----
 
-## License
-This project is licensed under the **MIT License**.

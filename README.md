@@ -75,3 +75,5 @@ Most governance tutorials are either too simple or overly complex. This implemen
 - You need a secure, modular base that uses the latest **OpenZeppelin 5.x** standards.
 - You're looking for a setup that’s already battle-tested with a full suite of **Foundry** tests.
 
+Whether you're building a new DAO or just learning the ropes, this repo is meant to save you hours of boilerplate and security auditing.
+

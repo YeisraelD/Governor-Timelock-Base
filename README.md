@@ -70,7 +70,8 @@ This project uses **OpenZeppelin 5.x** contracts, ensuring high security standar
 I built this repository to serve as a **clean, production-ready starting point** for anyone looking to implement decentralized governance. 
 
 Most governance tutorials are either too simple or overly complex. This implementation focuses on the **"Trustless Loop"**—the essential interaction between a Governance Token, a Governor "Brain," and a Timelock "Vault." 
-
-
-
+-- You should use this if:**
+- You want to understand *exactly* how proposals move from a vote to execution.
+- You need a secure, modular base that uses the latest **OpenZeppelin 5.x** standards.
+- You're looking for a setup that’s already battle-tested with a full suite of **Foundry** tests.
 
